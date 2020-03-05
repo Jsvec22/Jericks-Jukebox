@@ -1,0 +1,101 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Light Theme By Default-->
+    <style name="LightTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/lightPrimary</item>
+        <item name="colorPrimaryDark">@color/lightPrimaryDark</item>
+        <item name="colorAccent">@color/lightAccent</item>
+        <item name="android:windowBackground">@color/lightBackground</item>
+        <item name="android:textColor">@color/lightText</item>
+        <item name="colorButtonNormal">@color/lightButtonBackground</item>
+        <item name="android:textColorAlertDialogListItem">@color/lightText</item>
+        <item name="android:itemBackground">@color/lightBackground</item>
+        <item name="android:tint">@color/lightText</item>
+        <item name="radioButtonStyle">@style/LightThemeRadio</item>
+        <item name="actionBarTheme">@style/LightAppBar</item>
+        <item name="colorBackgroundFloating">@color/lightBackground</item>
+    </style>
+
+    <style name="LightThemeRadio" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:textColor">@color/lightText</item>
+    </style>
+
+    <style name="LightAppBar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@color/lightText</item>
+        <item name="android:textColorSecondary">@color/lightText</item>
+    </style>
+
+    <!-- Orange Theme -->
+    <style name="OrangeTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/orangePrimary</item>
+        <item name="colorPrimaryDark">@color/orangePrimaryDark</item>
+        <item name="colorAccent">@color/orangeAccent</item>
+        <item name="android:windowBackground">@color/orangeBackground</item>
+        <item name="android:textColor">@color/orangeText</item>
+        <item name="colorButtonNormal">@color/orangeButtonBackground</item>
+        <item name="android:textColorAlertDialogListItem">@color/orangeText</item>
+        <item name="android:itemBackground">@color/orangeBackground</item>
+        <item name="android:tint">@color/orangeText</item>
+        <item name="colorBackgroundFloating">@color/orangeBackground</item>
+        <item name="radioButtonStyle">@style/OrangeThemeRadio</item>
+        <item name="actionBarTheme">@style/OrangeAppBar</item>
+    </style>
+
+    <style name="OrangeThemeRadio" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:textColor">@color/orangeText</item>
+    </style>
+
+    <style name="OrangeAppBar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@color/orangeText</item>
+        <item name="android:textColorSecondary">@color/orangeText</item>
+    </style>
+
+    <!-- Dark Theme -->
+    <style name="DarkTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/darkPrimary</item>
+        <item name="colorPrimaryDark">@color/darkPrimaryDark</item>
+        <item name="colorAccent">@color/darkAccent</item>
+        <item name="android:windowBackground">@color/darkBackground</item>
+        <item name="android:textColor">@color/darkText</item>
+        <item name="colorButtonNormal">@color/darkButtonBackground</item>
+        <item name="android:textColorAlertDialogListItem">@color/darkText</item>
+        <item name="android:itemBackground">@color/darkBackground</item>
+        <item name="android:tint">@color/darkText</item>
+        <item name="colorBackgroundFloating">@color/darkBackground</item>
+        <item name="radioButtonStyle">@style/DarkThemeRadio</item>
+        <item name="actionBarTheme">@style/DarkAppBar</item>
+    </style>
+
+    <style name="DarkThemeRadio" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:textColor">@color/darkText</item>
+    </style>
+
+    <style name="DarkAppBar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@color/darkText</item>
+        <item name="android:textColorSecondary">@color/darkText</item>
+    </style>
+
+    <!-- Red Theme -->
+    <style name="RedTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/redPrimary</item>
+        <item name="colorPrimaryDark">@color/redPrimaryDark</item>
+        <item name="colorAccent">@color/redAccent</item>
+        <item name="android:windowBackground">@color/redBackground</item>
+        <item name="android:textColor">@color/redText</item>
+        <item name="colorButtonNormal">@color/redButtonBackground</item>
+        <item name="android:textColorAlertDialogListItem">@color/redText</item>
+        <item name="android:itemBackground">@color/redBackground</item>
+        <item name="android:tint">@color/redText</item>
+        <item name="colorBackgroundFloating">@color/redBackground</item>
+        <item name="radioButtonStyle">@style/RedThemeRadio</item>
+        <item name="actionBarTheme">@style/RedAppBar</item>
+    </style>
+
+    <style name="RedThemeRadio" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:textColor">@color/redText</item>
+    </style>
+    <style name="RedAppBar">
+        <item name="android:textColorPrimary">@color/redText</item>
+        <item name="android:textColorSecondary">@color/redText</item>
+    </style>
+</resources>

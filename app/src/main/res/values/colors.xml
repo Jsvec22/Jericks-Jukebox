@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light Theme Colors -->
+    <color name="lightPrimary">#75EEFF</color>
+    <color name="lightPrimaryDark">#8c9992</color>
+    <color name="lightAccent">#8e8999</color>
+    <color name="lightBackground">#CEE9EC</color>
+    <color name="lightText">#8e8999</color>
+    <color name="lightButtonBackground">#B2DEE7</color>
+    <color name="lightTextHighlight">#635f6b</color>
+
+    <!-- Orange Theme Colors -->
+    <color name="orangePrimary">#ffa500</color>
+    <color name="orangeAccent">#005aff</color>
+    <color name="orangePrimaryDark">#c83200</color>
+    <color name="orangeBackground">#ff8000</color>
+    <color name="orangeText">#001933</color>
+    <color name="orangeButtonBackground">#e57300</color>
+
+    <!-- Dark Theme Colors -->
+    <color name="darkPrimary">#1b222c</color>
+    <color name="darkPrimaryDark">#12151c</color>
+    <color name="darkAccent">#661b1c</color>
+    <color name="darkBackground">#424242</color>
+    <color name="darkText">#FFFFFF</color>
+    <color name="darkButtonBackground">#3a5444</color>
+
+    <!-- Red Theme Colors -->
+    <color name="redPrimary">#8C0000</color>
+    <color name="redPrimaryDark">#440000</color>
+    <color name="redAccent">#00008c</color>
+    <color name="redBackground">#660000</color>
+    <color name="redText">#006666</color>
+    <color name="redButtonBackground">#400000</color>
+</resources>
